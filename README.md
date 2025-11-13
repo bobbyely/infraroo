@@ -5,7 +5,7 @@ YOLO-based infrastructure detection from Google Maps satellite imagery. Detects 
 ## Setup
 
 1. Install dependencies: `uv sync`
-2. Copy `.env.example` to `.env` and add your Google Maps API key
+2. Create a .env with a GOOGLE_MAPS_API_KEY
 3. Add coordinates to `data/coordinates.csv`
 4. Download images: `uv run python scripts/download_images.py data/coordinates.csv`
 5. Annotate in CVAT, export YOLO format labels

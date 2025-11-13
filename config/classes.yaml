@@ -11,9 +11,9 @@ classes:
     name: "School Crossing"
     min_confidence: 0.80
 
-  traffic_signal:
+  traffic_signal_crossing:
     id: 2
-    name: "Traffic Signal"
+    name: "Traffic Signal Crossing"
     min_confidence: 0.85
 
   bus_lane:
@@ -21,12 +21,12 @@ classes:
     name: "Bus Lane"
     min_confidence: 0.80
 
-  parking_bay:
+  bike_lane:
     id: 4
-    name: "Parking Bay"
+    name: "Bike Lane"
     min_confidence: 0.80
 
-  bike_lane:
+  speed_hump:
     id: 5
-    name: "Bike Lane"
+    name: "Speed Hump"
     min_confidence: 0.80
