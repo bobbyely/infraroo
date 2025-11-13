@@ -1,0 +1,32 @@
+# Infrastructure Detection Classes
+
+classes:
+  pedestrian_crossing:
+    id: 0
+    name: "Pedestrian Crossing"
+    min_confidence: 0.80
+
+  school_crossing:
+    id: 1
+    name: "School Crossing"
+    min_confidence: 0.80
+
+  traffic_signal:
+    id: 2
+    name: "Traffic Signal"
+    min_confidence: 0.85
+
+  bus_lane:
+    id: 3
+    name: "Bus Lane"
+    min_confidence: 0.80
+
+  parking_bay:
+    id: 4
+    name: "Parking Bay"
+    min_confidence: 0.80
+
+  bike_lane:
+    id: 5
+    name: "Bike Lane"
+    min_confidence: 0.80
