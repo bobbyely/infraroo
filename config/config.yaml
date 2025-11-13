@@ -1,0 +1,21 @@
+# Infraroo Configuration
+
+# Data collection settings
+data:
+  download:
+    zoom: 20  # Zoom level for satellite imagery (19-21 recommended)
+    size: 640  # Image size in pixels (640x640)
+    output_dir: "data/raw"
+
+  dataset:
+    train_split: 0.70
+    val_split: 0.20
+    test_split: 0.10
+
+# Model training settings
+model:
+  architecture: "yolov8n"  # yolov8n (nano), yolov8s (small), yolov8m (medium)
+  input_size: 640
+  epochs: 100
+  batch_size: 16
+  patience: 20  # Early stopping patience
